@@ -17,7 +17,11 @@ namespace BusinessObjects
             UnitPrice = price;
         }
 
-       public int? CategoryId { get; set; }
+        public Product()
+        {
+        }
+
+        public int? CategoryId { get; set; }
         public int ProductId { get; set; }
         public string ProductName { get; set; }
         public short? UnitInStock { get; set; }

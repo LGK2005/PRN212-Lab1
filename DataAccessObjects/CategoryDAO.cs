@@ -20,7 +20,7 @@ namespace DataAccessObjects
             Category produce = new Category(7, "Produce");
             Category seafood = new Category(8, " Seafood");
 
-            var listCategories = new List<Category>;
+            var listCategories = new List<Category>();
             try
             {
                 listCategories.Add(beverages);
